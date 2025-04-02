@@ -65,6 +65,7 @@ jobs:
         with:
           BRANCH: pages
           FOLDER: docs/.vitepress/dist
+          token: ${{ secrets.GITHUB_TOKEN }} 
 
   # 任务2: 部署 Gitee Pages
 #  deploy-gitee-pages:
